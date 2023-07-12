@@ -8,6 +8,68 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #a1a1a1;
+    background: #573ee7;
     padding: 10px;
+}
+
+.todo-app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.todo-app h2 {
+    display: flex;
+    align-items: center;
+    margin-top: 39px;
+    margin-left: 48px;
+    font-size: 30px;
+    color: #030180;
+}
+
+.todo-app img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.agregar-tareas {
+    display: flex;
+    margin: 50px;
+    width: 600px;
+    height: 60px;   
+}
+
+.agregar-tareas input {
+    width: 600px;
+    height: 50px; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 20px;
+    background: #DCDCDC;
+    position: absolute;
+    z-index: 1;
+}
+
+.agregar-tareas button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #ffffff;
+    border-radius: 20px; 
+    background: #FF5C00;
+    margin-left: 500px;
+    z-index: 2; 
+}
+
+#tareas {
+    display: inline-block;
+    display: none;
+    margin-left: 50%;
+    font-size: 20px;
 }
