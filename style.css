@@ -37,7 +37,7 @@
     margin-left: 10px;
 }
 
-.agregar-tareas {
+.add-tasks {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,7 +47,7 @@
     border-radius: 40px;
 }
 
-.agregar-tareas input {
+.add-tasks input {
     width: 100%;
     border: none;
     outline: none;
@@ -56,7 +56,7 @@
     font-weight: 16px;
 }
 
-.agregar-tareas button {
+.add-tasks button {
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -68,14 +68,29 @@
     transition: .3s all ease;
 }
 
-.agregar-tareas button:hover {
+.add-tasks button:hover {
     background: #dc5f00;
     transition: .3s all ease;
 }
 
-#tareas {
-    display: inline-block;
-    display: none;
-    margin-left: 50%;
-    font-size: 20px;
-} 
+ul li {
+    list-style: none;
+    font-size: 16px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: " ";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
