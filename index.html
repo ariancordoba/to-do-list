@@ -13,8 +13,8 @@
 			<div class="todo-app">
 				<h2>To-Do List <img src="images/icon.png" /></h2>
 				<div class="add-tasks">
-					<input type="text" placeholder="Agrega una tarea" />
-					<button>Agregar</button>
+					<input id="input-box" type="text" placeholder="Agrega una tarea" />
+					<button onclick="addTask()">Agregar</button>
 				</div>
 				<ul id="list-container">
 					<!-- <li class="checked">Tarea 1</li>
@@ -23,5 +23,8 @@
 				</ul>
 			</div>
 		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="index.js"></script>
 	</body>
 </html>
