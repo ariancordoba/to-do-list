@@ -27,9 +27,10 @@
 
 .todo-app h2 {
     display: flex;
-    color: blue;
+    color: #1b1b1b;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 2rem;
 }
 
 .todo-app h2 img {
@@ -60,7 +61,7 @@
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5c00;
+    background: #35948f;
     color: #fff;
     border-radius: 40px;
     cursor: pointer;
@@ -69,7 +70,7 @@
 }
 
 .add-tasks button:hover {
-    background: #dc5f00;
+    background: #52bbb5;
     transition: .3s all ease;
 }
 
